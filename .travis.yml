@@ -1,0 +1,22 @@
+language: node_js
+
+node_js:
+  - '6'
+
+before_install:
+  - "npm config set spin false"
+
+script: "npm run validate"
+
+sudo: false
+
+cache:
+  directories:
+    - node_modules
+
+branches:
+  only:
+    - master
+
+after_script:
+  - cat test/coverage/PhantomJS\ 2.1.1\ \(Linux\ 0.0.0\)/lcov.info | coveralls --verbose

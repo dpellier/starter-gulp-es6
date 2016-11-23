@@ -1,0 +1,13 @@
+import './6to5';
+import './bower';
+import './build';
+import './clean';
+import './connect';
+import './copy';
+import './fonts';
+import './image';
+import './lint';
+import './sass';
+import './test';
+import './usemin';
+import './watch';

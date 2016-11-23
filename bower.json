@@ -1,0 +1,23 @@
+{
+  "name": "starter-gulp-es6",
+  "description": "starter-gulp-es6",
+  "main": "src/index.html",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Damien Pellier",
+      "email": "dpellier@leadformance.com",
+      "url": "https://github.com/dpellier"
+    }
+  ],
+  "homepage": "https://github.com/dpellier/starter-gulp-es6",
+  "moduleType": [
+    "es6"
+  ],
+  "dependencies": {
+    "babel-polyfill": "^0.0.1",
+    "normalize-css": "normalize.css#~3.0.3"
+  },
+  "overrides": {},
+  "devDependencies": {}
+}
